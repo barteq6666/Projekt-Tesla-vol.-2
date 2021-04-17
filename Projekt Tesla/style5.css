@@ -364,7 +364,7 @@ min-width: 408px;
 min-height: 250px;
 }
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
-img {vertical-align: middle;}
+img {vertical-align: middle; border-radius: 15px;}
 
 .slideshow-container {
     width:300px;
