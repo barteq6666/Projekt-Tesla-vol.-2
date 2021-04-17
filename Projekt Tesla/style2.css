@@ -119,38 +119,43 @@ body {
   color: #000000;
   text-align: center;
   padding: 20px;
-  font-size: 18px
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Guziki na górze */
 .option {
   transition: 0.5s;
   text-align: center;
-  background-color: #7E8282;
+  background-color: #d3d7de;
   float: left;
   color: black;
   min-width: 180px;
   height: 40px;
-  font-size: 27px;
+  font-size: 25.5px;
+  font-family: 'Montserrat', sans-serif;
   padding-left: 31px;
-  border-right: 1px solid #000000;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-right: 1px solid #8b8c8f;
+  border-top: 1px solid #8b8c8f;
+  border-bottom: 1px solid #8b8c8f;
+  border-left: 1px solid #8b8c8f;
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  /* opacity: 0.8; */
+  border-radius: 15px;
 }
 
 /* Guziki na górze */
 .option:hover {
   transition: 0.5s;
   cursor: grab;
-  background-color: #45494A;
+  background-color: #d3d7de;
   box-shadow: 0 0 40px #000000;
   border-width: 1px;
-  border-left: 1px solid #000000;
   transform: scale(1.05, 1.05);
+  border-radius: 15px;
+  border: 1px solid #8b8c8f;
+  margin-left: 1px;
   z-index:3;
 }
 
@@ -160,6 +165,8 @@ body {
   user-select: none;
   cursor: grabbing;
   box-shadow: 2px 8px 40px #FF193C;
+  border-radius: 15px;
+  margin-left: 1px;
 }
 
 /* Guzik "Strona główna" po lewo */
@@ -167,23 +174,21 @@ body {
   font-size: 20px;
   cursor: grab;
   transition: 0.5s;
-  background-color: #7E8282;
+  background-color: #d3d7de;
   height: 25px;
   padding-bottom: 38px;
   padding-top: 38px;
-  border-bottom: 1px solid #000000;
-  border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
-  border-top: 1px solid #000000;
+  border: 1px solid #8b8c8f;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Guzik "Strona główna" po lewo */
 .optionL:hover {
   transition: 0.5s;
   cursor: grab;
-  background-color: #45494A;
+  background-color: #d3d7de;
   box-shadow: 2px 8px 40px #000000;
-  border-top: 1px solid #000000;
   transform: scale(1.05, 1.05);
   z-index:3;
 }
@@ -193,7 +198,7 @@ body {
   background-color: #FF193C;
   user-select: none;
   cursor: grabbing;
-  box-shadow: 2px 8px 40px #FF193C ;
+  box-shadow: 2px 8px 40px #FF193C;
 }
 
 /* Duży nagłówek */
@@ -201,30 +206,31 @@ body {
   font-size: 32px;
   font-weight: 900;
   letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Guziki po lewej */
 .optionL_M {
   transition: 0.5s;
   font-size: 20px;
-  background-color: #7E8282;
-  cursor: grab;
+  background-color: #d3d7de;
   height: 25px;
-  border-bottom: 1px solid #000000;
-  border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
   padding-bottom: 38px;
-  padding-top: 38px
+  padding-top: 38px;
+  border-bottom: 1px solid #8b8c8f;
+  border-right: 1px solid #8b8c8f;
+  border-left: 1px solid #8b8c8f;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Guziki po lewej */
 .optionL_M:hover {
   transition: 0.5s;
   cursus: grab;
-  background-color: #45494A;
+  background-color: #d3d7de;
   box-shadow: 2px 8px 40px #000000;
   border-width: 1px;
-  border-top: 1px solid #000000;
   transform: scale(1.05, 1.05);
 }
 
@@ -239,32 +245,32 @@ body {
 /* Guzik "Strona główna" na górze */
 .optionM {
   float: left;
-  background-color: #7E8282;
+  background-color: #d3d7de;
   cursor: grab;
   transition: 0.5s;
   color: black;
   min-width: 180px;
   height: 40px;
-  font-size: 27px;
+  font-size: 25.5px;
   padding-left: 30px;
-  border-right: 1px solid #000000;
+  border-right: 1px solid #8b8c8f;
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  /* opacity: 0.8; */
-  border-left: 1px solid #000000;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-left: 1px solid #8b8c8f;
+  border-top: 1px solid #8b8c8f;
+  border-bottom: 1px solid #8b8c8f;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Guzik "Strona główna" na górze */
 .optionM:hover {
   cursor: grab;
-  background-color: #45494A;
+  background-color: #d3d7de;
   box-shadow: 2px 8px 40px #000000;
-  border-width: 1px;
   transition: 0.5s;
-  border-top: 1px solid #000000;
+  border: 1px solid #8b8c8f;
   transform: scale(1.05, 1.05);
 }
 
@@ -283,6 +289,7 @@ body {
   z-index: 4;
   width: 1500px;
   background-color: #f1f1f1;
+  border-radius: 1px;
 }
 
 /* Tło progress baru */
@@ -290,6 +297,7 @@ body {
   width: 1500px;
   height: 3px;
   background: white;
+  border-radius: 1px;
 }
 
 /* Progress bar */
@@ -297,7 +305,9 @@ body {
   height: 3px;
   background: #FF193C;
   width: 0%;
+  border-radius: 1px;
 }
+
 a:link{
   color: #000000;
   text-decoration: none;
