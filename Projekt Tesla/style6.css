@@ -1,0 +1,292 @@
+body {
+  background-color: #949999;
+  font-family: 'Lato', sans-serif, verdana;
+}
+
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2000px;
+}
+
+#logo {
+  text-align: center;
+  background-color: #45494A;
+  color: black;
+  margin-top: 20px;
+  font-size: 44px;
+  letter-spacing: 3px;
+  font-weight: 900;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#menu {
+  background-color: #7E8282;
+  margin-top: 20px;
+  color: #ffffff;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#topbar {
+  background-color: #7E8282;
+  color: white;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 170px;
+  width: 1480px;
+}
+
+#topbarL {
+  float: left;
+  padding: 20px;
+  width: 138px;
+  text-align: center;
+  transition: 1s;
+}
+
+#topbarL:hover {
+  transition: 1s;
+  transform: scale(1.4, 1.4);
+}
+
+#topbarR {
+  border-left: 1px solid black;
+  float: left;
+  padding: 20px;
+  width: 760px;
+  font-size: 16px;
+  text-align: justify;
+  color: black;
+}
+
+#sidebar {
+  background-color: #7E8282;
+  float: left;
+  width: 148px;
+  min-height: 620px;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  border-right: 1px solid #000000
+}
+
+#content {
+  color: black;
+  float: left;
+  padding: 40px;
+  width: 730px;
+  background-color: #7E8282;
+  min-height: 580px;
+  text-align: justify;
+}
+
+#footer {
+  clear: both;
+  color: 000000;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px
+}
+
+/* Guziki na górze */
+.option {
+  transition: 0.5s;
+  background-color: #7E8282;
+  float: left;
+  color: black;
+  min-width: 50px;
+  height: 25px;
+  font-size: 18px;
+  padding-left: 31px;
+  border-right: 1px solid #000000;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* opacity: 0.8; */
+}
+
+/* Guziki na górze */
+.option:hover {
+  transition: 0.5s;
+  cursor: grab;
+  background-color: #45494A;
+  box-shadow: 0 0 40px #000000;
+  border-width: 1px;
+  border-left: 1px solid #000000;
+  transform: scale(1.05, 1.05);
+  z-index:3;
+}
+
+/* Guziki na górze */
+.option:active {
+  background-color: #FF193C;
+  user-select: none;
+  cursor: grabbing;
+  box-shadow: 2px 8px 40px #FF193C;
+}
+
+/* Guzik "Strona główna" po lewo */
+.optionL {
+  font-size: 20px;
+  cursor: grab;
+  transition: 0.5s;
+  background-color: #7E8282;
+  height: 25px;
+  padding-bottom: 38px;
+  padding-top: 38px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+}
+
+/* Guzik "Strona główna" po lewo */
+.optionL:hover {
+  transition: 0.5s;
+  cursor: grab;
+  background-color: #45494A;
+  box-shadow: 2px 8px 40px #000000;
+  border-top: 1px solid #000000;
+  transform: scale(1.05, 1.05);
+  z-index:3;
+}
+
+/* Guzik "Strona główna" po lewo */
+.optionL:active {
+  background-color: #FF193C;
+  user-select: none;
+  cursor: grabbing;
+  box-shadow: 2px 8px 40px #FF193C ;
+}
+
+/* Duży nagłówek */
+.bigtitle {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+/* Guziki po lewej */
+.optionL_M {
+  transition: 0.5s;
+  font-size: 20px;
+  background-color: #7E8282;
+  cursor: grab;
+  height: 25px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  padding-bottom: 38px;
+  padding-top: 38px
+}
+
+/* Guziki po lewej */
+.optionL_M:hover {
+  transition: 0.5s;
+  cursus: grab;
+  background-color: #45494A;
+  box-shadow: 2px 8px 40px #000000;
+  border-width: 1px;
+  border-top: 1px solid #000000;
+  transform: scale(1.05, 1.05);
+}
+
+/* Guziki  po lewej */
+.optionL_M:active {
+  background-color: #FF193C;
+  user-select: none;
+  cursor: grabbing;
+  box-shadow:2px 8px 40px #FF193C;
+}
+
+/* Guzik "Strona główna" na górze */
+.optionM {
+  float: left;
+  background-color: #7E8282;
+  cursor: grab;
+  transition: 0.5s;
+  color: black;
+  min-width: 50px;
+  height: 25px;
+  font-size: 18px;
+  padding-left: 30px;
+  border-right: 1px solid #000000;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* opacity: 0.8; */
+  border-left: 1px solid #000000;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+/* Guzik "Strona główna" na górze */
+.optionM:hover {
+  cursor: grab;
+  background-color: #45494A;
+  box-shadow: 2px 8px 40px #000000;
+  border-width: 1px;
+  transition: 0.5s;
+  border-top: 1px solid #000000;
+  transform: scale(1.05, 1.05);
+}
+
+/* Guzik "Strona główna" na górze  */
+.optionM:active {
+  cursor: grabbing;
+  background-color: #FF193C;
+  user-select: none;
+  box-shadow: 2px 8px 40px #FF193C;
+}
+
+/* Naprawa progress baru, żeby  */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  width: 1000px;
+  background-color: #f1f1f1;
+}
+
+/* Tło progress baru */
+.progress-container {
+  width: 1000px;
+  height: 3px;
+  background: white;
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 3px;
+  background: #FF193C;
+  width: 0%;
+}
+a:link{
+  color: #000000;
+  text-decoration: none;
+}
+a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+a:hover{
+  color: #000000;
+  text-decoration: none;
+}
+a:active{
+  color: #000000;
+  text-decoration: none;
+}
