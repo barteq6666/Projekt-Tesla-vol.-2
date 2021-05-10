@@ -338,3 +338,7 @@ a:active{
 ::-webkit-scrollbar-thumb:hover {
   background: #8b8c8f; 
 }
+
+input {
+  width: 25%;
+  background-color: red;
