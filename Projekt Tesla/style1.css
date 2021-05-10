@@ -111,7 +111,10 @@ body {
   border-right: 1px solid #8b8c8f;
 }
 #email {
-color: red;
+input {
+  width: 100%;
+  color: red;
+}
 }
 
 #footer {
