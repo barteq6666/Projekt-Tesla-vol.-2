@@ -338,9 +338,13 @@ a:active{
 ::-webkit-scrollbar-thumb:hover {
   background: #8b8c8f; 
 }
-
-input {
-  width: 25%;
-  background-color: grey;
+input[type=email] {
+width: 25%
+height: 10%;
+}
+input[type=email] {
+width: 25%
+height: 30%;
+}
   
  
