@@ -342,3 +342,7 @@ a:active{
 input {
   width: 25%;
   background-color: grey;
+  
+  #email {
+  height: 10%;
+  }
