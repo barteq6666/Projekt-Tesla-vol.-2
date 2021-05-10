@@ -338,15 +338,6 @@ a:active{
 ::-webkit-scrollbar-thumb:hover {
   background: #8b8c8f; 
 }
-input[type=email] {
-width: 30%
-color: #000000;
-}
-input[type=text] {
-  height: 60px;
-  border-top: 5px;
-  width: 30%
-  color: #000000;
-}
+
 
  
