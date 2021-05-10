@@ -343,7 +343,8 @@ width: 30%
 color: #000000;
 }
 input[type=text] {
-  height: 100px;
+  height: 60px;
+  border-top: 5px;
   width: 30%
   color: #000000;
 }
