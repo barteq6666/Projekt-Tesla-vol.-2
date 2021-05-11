@@ -339,5 +339,10 @@ a:active{
   background: #8b8c8f; 
 }
 
-
+input[type=email] {
+border-radius: 15px;
+}
  
+input[type=text] {
+border-radius: 15px;
+}
