@@ -341,8 +341,12 @@ a:active{
 
 input[type=email] {
 border-radius: 15px;
+background-color: #d3d7de;
+border-left: 1px solid #8b8c8f;
 }
  
 input[type=text] {
 border-radius: 15px;
+background-color: #d3d7de;
+border: 1px solid #8b8c8f;
 }
