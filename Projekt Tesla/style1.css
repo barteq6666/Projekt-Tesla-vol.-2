@@ -349,11 +349,12 @@ input[type=text] {
 border-radius: 15px;
 background-color: #d3d7de;
 border: 1px solid #8b8c8f;
+height: 60px;
 }
 
 button[type=submit] {
 border-radius: 15px;
 background-color: #d3d7de;
 border: 1px solid #8b8c8f;
-
+color: #8b8c8f;
 }
